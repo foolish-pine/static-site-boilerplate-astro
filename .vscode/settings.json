@@ -13,6 +13,9 @@
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json][jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }

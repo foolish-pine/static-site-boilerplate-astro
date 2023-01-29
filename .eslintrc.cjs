@@ -10,6 +10,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:astro/recommended",
     "plugin:astro/jsx-a11y-recommended",
+    "prettier",
   ],
   overrides: [
     {
@@ -24,7 +25,6 @@ module.exports = {
       files: ["*.ts"],
       parser: "@typescript-eslint/parser",
       extends: ["plugin:@typescript-eslint/recommended"],
-      rules: {},
     },
   ],
   parserOptions: {
