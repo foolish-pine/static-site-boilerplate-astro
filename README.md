@@ -86,8 +86,8 @@ fixする。
 - [PostCSS](https://github.com/postcss/postcss)を使用する
 - プラグインとして以下を使用する
   - [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
-	- [autoprefixer](https://github.com/postcss/autoprefixer)
-	- [postcss-sort-media-queries](https://github.com/solversgroup/postcss-sort-media-queries)
+  - [autoprefixer](https://github.com/postcss/autoprefixer)
+  - [postcss-sort-media-queries](https://github.com/solversgroup/postcss-sort-media-queries)
 - プレフィックスの付与は`.browserslistrc`に基づく
 
 #### リンター・フォーマッター
@@ -105,5 +105,5 @@ fixする。
   - [eslint-plugin-astro](https://github.com/ota-meshi/eslint-plugin-astro)
   - [eslint-plugin-css-import-order](https://www.npmjs.com/package/eslint-plugin-css-import-order)
   - [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
-	- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)
-	- [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
+  - [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)
+  - [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
