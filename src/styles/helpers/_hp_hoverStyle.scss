@@ -1,0 +1,15 @@
+/* ----------------------------------
+	hp_hoverStyle
+	ホバーアクションのスタイル
+------------------------------------ */
+@use "src/styles/global" as *;
+
+.hp_hoverTransparent {
+  transition: opacity 0.4s !important;
+
+  @include mq_hover {
+    &:hover {
+      opacity: 0.6 !important;
+    }
+  }
+}

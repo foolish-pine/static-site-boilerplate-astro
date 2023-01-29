@@ -1,0 +1,31 @@
+/* ----------------------------------
+	mediaquery
+	メディアクエリのmixin
+------------------------------------ */
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1366px,
+);
+
+@mixin mq($size) {
+  @media screen and (max-width: #{map-get($breakpoints, $size)}) {
+    @content;
+  }
+}
+
+// カスタムmax-widthメディアクエリ
+@mixin mq_custom($breakPoint) {
+  @media (max-width: $breakPoint) {
+    @content;
+  }
+}
+
+// hover動作が使えるかつ、ポインターがマウスポインターのデバイスのみを指定するメディアクエリ
+@mixin mq_hover {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}

@@ -1,0 +1,21 @@
+/* ----------------------------------
+	hp_deviceOnly
+	画面幅に応じた表示・非表示用スタイル
+------------------------------------ */
+@use "src/styles/global" as *;
+
+.hp_mobileOnly {
+  display: none !important;
+
+  @include mq(md) {
+    display: block !important;
+  }
+}
+
+.hp_desktopOnly {
+  display: block !important;
+
+  @include mq(md) {
+    display: none !important;
+  }
+}

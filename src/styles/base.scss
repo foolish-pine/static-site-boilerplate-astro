@@ -1,0 +1,37 @@
+/* ----------------------------------
+	base
+	サイト全体に適用したいスタイル
+------------------------------------ */
+@use "src/styles/global" as *;
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  font-family: $f_yuGothic, sans-serif;
+  font-size: rem(16); // 16px
+  line-height: 1;
+  color: $c_black;
+  overflow-wrap: break-word;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* stylelint-disable */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  // Google Chromeのみ以下のスタイルを適用する
+  img {
+    // 画像がぼやけるバグを修正するためのスタイル
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+/* stylelint-enable */

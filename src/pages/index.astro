@@ -1,0 +1,27 @@
+---
+import Layout from "src/layouts/Layout.astro";
+
+import "src/styles/helpers/index.scss";
+---
+
+<style lang="scss">
+  @use "src/styles/global" as *;
+
+  .h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+
+    @include mq_custom(1155px) {
+      color: red;
+    }
+
+    @include mq(md) {
+      font-size: 16px;
+    }
+  }
+</style>
+
+<Layout title="Welcome to Astro" description="Build faster websites with Astro">
+  <h1 class="h1">Astro</h1>
+  <p class="hp_mobileOnly">表示テスト</p>
+</Layout>

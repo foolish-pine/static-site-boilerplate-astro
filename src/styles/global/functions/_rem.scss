@@ -1,0 +1,9 @@
+/* ----------------------------------
+	rem()
+	pxをremに変換する
+------------------------------------ */
+$baseFontSize: 16;
+
+@function rem($px) {
+  @return calc($px / $baseFontSize * 1rem);
+}
