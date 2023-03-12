@@ -62,7 +62,8 @@
     "**/*.astro": [
       "eslint --fix --quiet",
       "stylelint --fix --quiet",
-      "prettier --write --loglevel=error"
+      "prettier --write --loglevel=error",
+      "astro check"
     ],
     "**/*.{js,ts}": [
       "eslint --fix --quiet"
