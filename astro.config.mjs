@@ -1,16 +1,25 @@
 // https://astro.build/config
+import image from "@astrojs/image";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 import compress from "astro-compress";
 import purgecss from "astro-purgecss";
 
 export default defineConfig({
-  // Your final, deployed URL
+  // TODO: 公開URLに変更する
   site: "https://www.my-site.dev",
-  // The base path to deploy to
   base: "/",
   server: {
     host: true,
   },
-  integrations: [sitemap(), purgecss(), compress()],
+  integrations: [
+    sitemap(),
+    purgecss(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    compress({
+      css: false, // CSSをastro-compressで圧縮するとメディアクエリの記述順がおかしくなる
+    }),
+  ],
 });
