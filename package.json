@@ -10,15 +10,15 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint \"**/*.{astro,js,ts}\"",
     "lint:astro": "astro check",
-    "lint:prettier": "prettier --check \"**/*.{astro,json,jsonc}\"",
     "lint:markuplint": "markuplint \"**/*.astro\"",
+    "lint:eslint": "eslint \"**/*.{astro,js,ts}\"",
     "lint:stylelint": "stylelint \"**/*.{astro,css,scss}\"",
-    "fix": "run-p fix:*",
+    "lint:prettier": "prettier --check src",
+    "fix": "run-s fix:eslint fix:stylelint fix:prettier",
     "fix:eslint": "npm run lint:eslint -- --fix",
-    "fix:prettier": "prettier --write \"**/*.{astro,json,jsonc}\"",
-    "fix:stylelint": "npm run lint:stylelint -- --fix"
+    "fix:stylelint": "npm run lint:stylelint -- --fix",
+    "fix:prettier": "prettier --write src"
   },
   "dependencies": {
     "@astrojs/image": "^0.16.1",
@@ -66,7 +66,8 @@
       "astro check"
     ],
     "**/*.{js,ts}": [
-      "eslint --fix --quiet"
+      "eslint --fix --quiet",
+      "prettier --write --loglevel=error"
     ],
     "**/*.{css,scss}": [
       "stylelint --fix --quiet",
