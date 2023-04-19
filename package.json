@@ -33,7 +33,7 @@
     "@markuplint/astro-parser": "^3.5.0",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
-    "astro-robots-txt": "^0.4.1",
+    "astro-robots-txt": "^0.5.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
