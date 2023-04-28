@@ -11,14 +11,14 @@ $breakpoints: (
 );
 
 @mixin mq($size) {
-  @media screen and (max-width: #{map-get($breakpoints, $size)}) {
+  @media screen and (min-width: #{map-get($breakpoints, $size)}) {
     @content;
   }
 }
 
-// カスタムmax-widthメディアクエリ
+// カスタムmin-widthメディアクエリ
 @mixin mq_custom($breakPoint) {
-  @media (max-width: $breakPoint) {
+  @media (min-width: $breakPoint) {
     @content;
   }
 }
