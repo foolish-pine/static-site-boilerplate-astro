@@ -1,8 +1,11 @@
 ---
 import BaseLayout from "src/layouts/BaseLayout.astro";
-
-import "src/styles/helpers/index.scss";
 ---
+
+<BaseLayout title="Welcome to Astro" description="Build faster websites with Astro">
+  <h1 class="h1">Astro</h1>
+  <p class="hp_mobileOnly">表示テスト</p>
+</BaseLayout>
 
 <style lang="scss">
   @use "src/styles/global" as *;
@@ -20,8 +23,3 @@ import "src/styles/helpers/index.scss";
     }
   }
 </style>
-
-<BaseLayout title="Welcome to Astro" description="Build faster websites with Astro">
-  <h1 class="h1">Astro</h1>
-  <p class="hp_mobileOnly">表示テスト</p>
-</BaseLayout>
