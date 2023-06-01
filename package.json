@@ -48,7 +48,7 @@
     "postcss-preset-env": "^8.4.1",
     "postcss-sort-media-queries": "^5.1.0",
     "prettier": "^2.8.8",
-    "prettier-plugin-astro": "^0.9.1",
+    "prettier-plugin-astro": "^0.10.0",
     "sass": "^1.62.1",
     "simple-git-hooks": "^2.8.1",
     "stylelint": "^15.6.2",
