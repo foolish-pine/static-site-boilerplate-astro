@@ -15,6 +15,7 @@ module.exports = {
         ignorePseudoClasses: ["global"],
       },
     ],
+    "custom-property-pattern": null,
   },
   ignoreFiles: ["dist/**", "**/node_modules/**"],
 };
