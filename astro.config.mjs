@@ -1,27 +1,30 @@
-// https://astro.build/config
 import image from "@astrojs/image";
+import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 import compress from "astro-compress";
-import purgecss from "astro-purgecss";
 import robotsTxt from "astro-robots-txt";
 
+// https://astro.build/config
 export default defineConfig({
-  // TODO: 公開URLに変更する
-  site: "https://www.my-site.dev",
+  site: "https://www.my-site.dev", // set your site URL.
   base: "/",
   server: {
     host: true,
+    open: true,
+  },
+  build: {
+    inlineStylesheets: "auto",
   },
   integrations: [
     sitemap(),
-    purgecss(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
-    compress({
-      css: false, // CSSをastro-compressで圧縮するとメディアクエリの記述順がおかしくなる
-    }),
     robotsTxt(),
+    prefetch(),
+    compress({
+      img: false,
+    }),
   ],
 });
