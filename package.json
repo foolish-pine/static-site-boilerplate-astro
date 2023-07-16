@@ -21,11 +21,11 @@
     "fix:prettier": "prettier --write src"
   },
   "dependencies": {
-    "@astrojs/image": "^0.17.2",
     "@astrojs/prefetch": "^0.3.0",
     "@astrojs/sitemap": "^1.4.0",
     "astro": "^2.8.3",
     "astro-compress": "^1.1.49",
+    "astro-imagetools": "^0.8.1",
     "astro-seo": "^0.7.5",
     "destyle.css": "^4.0.0"
   },
