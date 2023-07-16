@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prepare": "npx simple-git-hooks",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
