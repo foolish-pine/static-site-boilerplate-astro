@@ -13,6 +13,15 @@ export default defineConfig({
     host: true,
     open: true,
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "src/styles/global" as *;`,
+        },
+      },
+    },
+  },
   build: {
     inlineStylesheets: "auto",
   },
