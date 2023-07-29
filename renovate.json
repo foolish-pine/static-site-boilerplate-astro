@@ -1,4 +1,35 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":disableDependencyDashboard"]
+  "extends": ["config:base"],
+  "dependencyDashboard": false,
+  "requiredStatusChecks": null,
+  "schedule": ["every 1 hour after 00:00 and before 23:59 every day"],
+  "automergeSchedule": ["every 1 hour after 00:00 and before 23:59 every day"],
+  "major": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint",
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchPackagePatterns": ["stylelint"],
+      "groupName": "stylelint",
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchPackagePatterns": ["prettier"],
+      "groupName": "prettier",
+      "automerge": true
+    }
+  ]
 }
