@@ -14,11 +14,11 @@
     "lint:astro": "astro check",
     "lint:eslint": "eslint \"**/*.{astro,js,ts}\"",
     "lint:stylelint": "stylelint \"**/*.{astro,css,scss}\"",
-    "lint:prettier": "prettier --check src",
+    "lint:prettier": "prettier --check src --plugin prettier-plugin-astro",
     "fix": "run-s fix:eslint fix:stylelint fix:prettier",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:stylelint": "npm run lint:stylelint -- --fix",
-    "fix:prettier": "prettier --write src"
+    "fix:prettier": "prettier --write src --plugin prettier-plugin-astro"
   },
   "dependencies": {
     "@astrojs/prefetch": "^0.3.0",
@@ -61,7 +61,7 @@
     "**/*.astro": [
       "eslint --fix --quiet",
       "stylelint --fix --quiet",
-      "prettier --write --log-level=error",
+      "prettier --write --log-level=error --plugin prettier-plugin-astro",
       "astro check"
     ],
     "**/*.{js,ts}": [
