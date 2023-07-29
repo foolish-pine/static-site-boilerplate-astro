@@ -15,6 +15,12 @@
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchPackagePatterns": ["astro"],
+      "groupName": "astro",
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "matchPackagePatterns": ["eslint"],
       "groupName": "eslint",
       "automerge": true
