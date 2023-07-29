@@ -1,12 +1,17 @@
 const INTERACTIVE_SELECTOR = "button, a";
 
 const createInteractiveElementArray = (element: HTMLElement) => {
-  const elements = element.querySelectorAll<HTMLButtonElement | HTMLAnchorElement>(INTERACTIVE_SELECTOR);
+  const elements = element.querySelectorAll<
+    HTMLButtonElement | HTMLAnchorElement
+  >(INTERACTIVE_SELECTOR);
   const interactiveElementArray = Array.from(elements);
   return interactiveElementArray;
 };
 
-export const focusToButton = (parentElement: HTMLElement, isFirstFocus = true) => {
+export const focusToButton = (
+  parentElement: HTMLElement,
+  isFirstFocus = true,
+) => {
   if (!parentElement) {
     throw new Error("No element found.");
   }
@@ -18,7 +23,11 @@ export const focusToButton = (parentElement: HTMLElement, isFirstFocus = true) =
   }
 };
 
-export const manipulateFocusInModal = (event: KeyboardEvent, parentElement: HTMLElement, onClose: () => void) => {
+export const manipulateFocusInModal = (
+  event: KeyboardEvent,
+  parentElement: HTMLElement,
+  onClose: () => void,
+) => {
   if (!parentElement) {
     return;
   }
@@ -31,7 +40,9 @@ export const manipulateFocusInModal = (event: KeyboardEvent, parentElement: HTML
       break;
     case "Tab": {
       const interactiveElArray = createInteractiveElementArray(parentElement);
-      const focusIndex = interactiveElArray.findIndex((el) => el === document.activeElement);
+      const focusIndex = interactiveElArray.findIndex(
+        (el) => el === document.activeElement,
+      );
 
       if (interactiveElArray.length === 1) {
         event.preventDefault();
