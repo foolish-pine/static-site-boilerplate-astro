@@ -15,3 +15,17 @@
     display: none !important;
   }
 }
+
+.hp_hoverTransparent {
+  transition: opacity 0.4s !important;
+
+  @include mq_hover {
+    &:hover {
+      opacity: 0.6 !important;
+    }
+  }
+}
+
+.hp_ttu {
+  text-transform: uppercase !important;
+}
