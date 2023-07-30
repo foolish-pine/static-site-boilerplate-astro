@@ -32,6 +32,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
+    "astro-critters": "^1.1.40",
     "astro-robots-txt": "^0.5.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.46.0",
