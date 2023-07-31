@@ -2,7 +2,6 @@ import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 import compress from "astro-compress";
-import critters from "astro-critters";
 import { astroImageTools } from "astro-imagetools";
 import robotsTxt from "astro-robots-txt";
 
@@ -34,6 +33,5 @@ export default defineConfig({
     compress({
       img: false,
     }),
-    critters(),
   ],
 });
