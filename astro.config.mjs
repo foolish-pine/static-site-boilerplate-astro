@@ -31,7 +31,11 @@ export default defineConfig({
     robotsTxt(),
     prefetch(),
     compress({
+      html: true,
+      css: false,
+      js: false,
       img: false,
+      svg: true,
     }),
   ],
 });
