@@ -1,7 +1,6 @@
 import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
-import compress from "astro-compress";
 import { astroImageTools } from "astro-imagetools";
 import robotsTxt from "astro-robots-txt";
 
@@ -23,19 +22,8 @@ export default defineConfig({
     },
   },
   build: {
-    inlineStylesheets: "auto",
+    inlineStylesheets: "auto", // default since Astro@3.0.0
   },
-  integrations: [
-    astroImageTools,
-    sitemap(),
-    robotsTxt(),
-    prefetch(),
-    compress({
-      html: true,
-      css: false,
-      js: false,
-      img: false,
-      svg: true,
-    }),
-  ],
+  compressHTML: true, // default since Astro@3.0.0
+  integrations: [astroImageTools, sitemap(), robotsTxt(), prefetch()],
 });

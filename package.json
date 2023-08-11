@@ -24,7 +24,6 @@
     "@astrojs/prefetch": "^0.3.0",
     "@astrojs/sitemap": "^2.0.1",
     "astro": "^2.10.1",
-    "astro-compress": "^1.1.50",
     "astro-imagetools": "^0.8.1",
     "astro-seo": "^0.7.5",
     "destyle.css": "^4.0.0"
