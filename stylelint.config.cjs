@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["stylelint-config-standard-scss", "stylelint-config-recess-order", "stylelint-config-html"],
+  extends: [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recess-order",
+    "stylelint-config-html",
+  ],
   rules: {
     "keyframes-name-pattern": null,
     "scss/at-function-pattern": null,
