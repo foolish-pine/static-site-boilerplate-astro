@@ -7,7 +7,13 @@
   "css.validate": false,
   "scss.validate": false,
   "stylelint.validate": ["css", "scss", "astro"],
-  "eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "astro",
+    "typescript",
+    "typescriptreact"
+  ],
   "prettier.documentSelectors": ["**/*.astro"],
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
