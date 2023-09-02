@@ -21,9 +21,5 @@ export default defineConfig({
       },
     },
   },
-  build: {
-    inlineStylesheets: "auto", // default since Astro@3.0.0
-  },
-  compressHTML: true, // default since Astro@3.0.0
   integrations: [astroImageTools, sitemap(), robotsTxt(), prefetch()],
 });
