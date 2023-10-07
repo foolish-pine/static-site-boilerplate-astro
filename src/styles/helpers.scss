@@ -20,9 +20,7 @@
   transition: opacity 0.4s !important;
 
   @include mq_hover {
-    &:hover {
-      opacity: 0.6 !important;
-    }
+    opacity: 0.6 !important;
   }
 }
 
