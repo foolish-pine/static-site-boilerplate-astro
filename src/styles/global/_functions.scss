@@ -1,5 +1,5 @@
 $baseFontSize: 16;
 
-@function remUnit($px) {
+@function toRem($px) {
   @return calc($px / $baseFontSize * 1rem);
 }
