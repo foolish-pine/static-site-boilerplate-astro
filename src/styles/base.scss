@@ -1,8 +1,7 @@
 @use "src/styles/global" as *;
 
 html {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden auto;
 }
 
 body {
