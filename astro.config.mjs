@@ -1,4 +1,3 @@
-import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 import { astroImageTools } from "astro-imagetools";
@@ -8,6 +7,9 @@ import robotsTxt from "astro-robots-txt";
 export default defineConfig({
   site: "https://www.my-site.dev", // set your site URL.
   base: "/",
+  prefetch: {
+    prefetchAll: true,
+  },
   server: {
     host: true,
     open: true,
@@ -21,5 +23,5 @@ export default defineConfig({
       },
     },
   },
-  integrations: [astroImageTools, sitemap(), robotsTxt(), prefetch()],
+  integrations: [astroImageTools, sitemap(), robotsTxt()],
 });
