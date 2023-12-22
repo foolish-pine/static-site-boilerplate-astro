@@ -21,9 +21,9 @@
     "fix:prettier": "prettier --write src --plugin prettier-plugin-astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.3",
+    "@astrojs/check": "^0.3.4",
     "@astrojs/sitemap": "^3.0.3",
-    "astro": "^4.0.6",
+    "astro": "^4.0.7",
     "astro-imagetools": "^0.9.0",
     "astro-seo": "^0.8.0",
     "destyle.css": "^4.0.0",
