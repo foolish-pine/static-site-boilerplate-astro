@@ -23,15 +23,15 @@
   "dependencies": {
     "@astrojs/check": "^0.4.1",
     "@astrojs/sitemap": "^3.0.5",
-    "astro": "^4.2.1",
+    "astro": "^4.2.4",
     "astro-imagetools": "^0.9.0",
     "astro-seo": "^0.8.0",
-    "destyle.css": "^4.0.0",
+    "destyle.css": "^4.0.1",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
     "astro-robots-txt": "^1.0.0",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
@@ -46,7 +46,7 @@
     "postcss-preset-env": "^9.3.0",
     "postcss-sort-media-queries": "^5.2.0",
     "prettier": "^3.2.4",
-    "prettier-plugin-astro": "^0.12.3",
+    "prettier-plugin-astro": "^0.13.0",
     "sass": "^1.70.0",
     "simple-git-hooks": "^2.9.0",
     "stylelint": "^16.2.0",
