@@ -6,13 +6,13 @@ $breakpoints: (
 );
 
 @mixin mq($size) {
-  @media screen and (min-width: #{map-get($breakpoints, $size)}) {
+  @media (#{map-get($breakpoints, $size)} <= width) {
     @content;
   }
 }
 
 @mixin mq_custom($breakPoint) {
-  @media (min-width: $breakPoint) {
+  @media ($breakPoint <= width) {
     @content;
   }
 }
