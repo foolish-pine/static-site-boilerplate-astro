@@ -55,7 +55,7 @@
     "stylelint-config-standard-scss": "^13.0.0"
   },
   "volta": {
-    "node": "20.9.0"
+    "node": "20.12.0"
   },
   "lint-staged": {
     "*.astro": [
