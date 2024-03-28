@@ -1,6 +1,6 @@
 module.exports = {
-  plugins: [
-    require("postcss-preset-env"),
-    require("postcss-sort-media-queries"),
-  ],
+  plugins: {
+    "postcss-preset-env": {},
+    "postcss-sort-media-queries": {},
+  },
 };
