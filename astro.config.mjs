@@ -1,6 +1,5 @@
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
-import { astroImageTools } from "astro-imagetools";
 import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
@@ -23,5 +22,5 @@ export default defineConfig({
       },
     },
   },
-  integrations: [astroImageTools, sitemap(), robotsTxt()],
+  integrations: [sitemap(), robotsTxt()],
 });
