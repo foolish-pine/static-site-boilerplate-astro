@@ -30,25 +30,10 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["import", "unused-imports"],
+  plugins: ["simple-import-sort", "unused-imports"],
   rules: {
-    "import/order": [
-      "warn",
-      {
-        groups: [
-          "builtin",
-          "external",
-          "internal",
-          ["parent", "sibling"],
-          "index",
-          "object",
-          "type",
-        ],
-        "newlines-between": "never",
-        pathGroupsExcludedImportTypes: ["builtin"],
-        alphabetize: { order: "asc", caseInsensitive: true },
-      },
-    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     "unused-imports/no-unused-imports": "error",
   },
 };
