@@ -20,8 +20,8 @@
     "fix:prettier": "prettier --write src --plugin prettier-plugin-astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.1.2",
-    "astro": "^4.6.0",
+    "@astrojs/sitemap": "^3.1.4",
+    "astro": "^4.6.3",
     "astro-seo": "^0.8.3",
     "destyle.css": "^4.0.1"
   },
@@ -32,21 +32,21 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-astro": "^0.34.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
     "globals": "^15.0.0",
     "lefthook": "^1.6.10",
     "npm-run-all": "^4.1.5",
-    "postcss-preset-env": "^9.5.5",
+    "postcss-preset-env": "^9.5.6",
     "postcss-sort-media-queries": "^5.2.0",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "sass": "^1.75.0",
     "stylelint": "^16.3.1",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recess-order": "^5.0.0",
+    "stylelint-config-recess-order": "^5.0.1",
     "stylelint-config-standard-scss": "^13.1.0",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.6.0"
+    "typescript-eslint": "^7.7.0"
   },
   "volta": {
     "node": "20.12.0"
