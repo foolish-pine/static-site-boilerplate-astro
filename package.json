@@ -35,7 +35,7 @@
     "eslint-plugin-simple-import-sort": "12.1.0",
     "globals": "15.0.0",
     "lefthook": "1.6.10",
-    "npm-run-all2": "5.0.2",
+    "npm-run-all2": "6.1.2",
     "postcss-preset-env": "9.5.6",
     "postcss-sort-media-queries": "5.2.0",
     "prettier": "3.2.5",
