@@ -46,7 +46,7 @@
     "stylelint-config-recess-order": "5.0.1",
     "stylelint-config-standard-scss": "13.1.0",
     "typescript": "5.4.5",
-    "typescript-eslint": "7.7.0"
+    "typescript-eslint": "7.7.1"
   },
   "volta": {
     "node": "20.12.2"
