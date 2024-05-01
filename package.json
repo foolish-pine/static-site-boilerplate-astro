@@ -41,7 +41,7 @@
     "postcss-sort-media-queries": "5.2.0",
     "prettier": "3.2.5",
     "prettier-plugin-astro": "0.13.0",
-    "sass": "1.75.0",
+    "sass": "1.76.0",
     "stylelint": "16.4.0",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-recess-order": "5.0.1",
