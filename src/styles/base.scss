@@ -9,7 +9,9 @@ body {
   font-size: toRem(16);
   line-height: 1;
   color: $c_black;
-  overflow-wrap: break-word;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  line-break: strict;
 }
 
 li {
