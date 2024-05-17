@@ -18,13 +18,13 @@ $breakpoints: (
 }
 
 @mixin mq_hover {
-  @media (hover: hover) and (pointer: fine) {
+  @media (any-hover: hover) {
     &:hover {
       @content;
     }
   }
 
-  &:focus {
+  &:focus-visible {
     @content;
   }
 }
