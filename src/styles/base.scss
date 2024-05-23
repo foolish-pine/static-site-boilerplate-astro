@@ -35,6 +35,17 @@ dialog {
   border: unset;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after,
+  *::backdrop {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* stylelint-disable */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   // Google Chrome
