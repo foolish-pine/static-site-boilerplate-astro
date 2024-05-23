@@ -23,6 +23,18 @@ img {
   height: auto;
 }
 
+dialog {
+  width: unset;
+  max-width: unset;
+  height: unset;
+  max-height: unset;
+  padding: unset;
+  overflow: unset;
+  color: unset;
+  background-color: unset;
+  border: unset;
+}
+
 /* stylelint-disable */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   // Google Chrome
