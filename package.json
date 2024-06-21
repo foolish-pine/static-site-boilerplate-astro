@@ -12,11 +12,11 @@
     "lint": "run-p lint:*",
     "lint:eslint": "ESLINT_USE_FLAT_CONFIG=true eslint \"**/*.{astro,js,ts}\"",
     "lint:stylelint": "stylelint \"**/*.{astro,css,scss}\"",
-    "lint:prettier": "prettier --check . --plugin prettier-plugin-astro",
+    "lint:prettier": "prettier --check .",
     "fix": "run-s fix:{eslint,stylelint,prettier}",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:stylelint": "npm run lint:stylelint -- --fix",
-    "fix:prettier": "prettier --write . --plugin prettier-plugin-astro"
+    "fix:prettier": "prettier --write ."
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.1.4",
