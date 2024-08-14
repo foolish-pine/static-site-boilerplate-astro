@@ -10,7 +10,7 @@
     "check": "run-p check:*",
     "check:astro": "astro check",
     "lint": "run-p lint:*",
-    "lint:eslint": "ESLINT_USE_FLAT_CONFIG=true eslint \"**/*.{astro,js,ts}\"",
+    "lint:eslint": "eslint \"**/*.{astro,js,ts}\"",
     "lint:stylelint": "stylelint \"**/*.{astro,css,scss}\"",
     "lint:prettier": "prettier --check .",
     "fix": "run-s fix:{eslint,stylelint,prettier}",

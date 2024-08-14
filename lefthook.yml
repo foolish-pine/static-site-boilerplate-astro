@@ -3,7 +3,7 @@ pre-commit:
   commands:
     1_eslint:
       glob: "*.{astro,js,cjs,mjs,ts}"
-      run: ESLINT_USE_FLAT_CONFIG=true npx eslint --fix --quiet {staged_files}
+      run: npx eslint --fix --quiet {staged_files}
     2_stylelint:
       glob: "*.{astro,css,scss}"
       run: npx stylelint --fix --quiet {staged_files}
