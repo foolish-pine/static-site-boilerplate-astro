@@ -33,7 +33,7 @@
     "eslint-plugin-jsx-a11y": "6.10.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "globals": "15.9.0",
-    "lefthook": "1.7.16",
+    "lefthook": "1.7.17",
     "npm-run-all2": "6.2.3",
     "postcss-preset-env": "10.0.5",
     "postcss-sort-media-queries": "5.2.0",
