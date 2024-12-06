@@ -31,10 +31,4 @@ export default tseslint.config(
       "simple-import-sort/exports": "error",
     },
   },
-  {
-    files: ["src/env.d.ts"],
-    rules: {
-      "@typescript-eslint/triple-slash-reference": "off",
-    },
-  },
 );

@@ -3,5 +3,6 @@
   "compilerOptions": {
     "baseUrl": "."
   },
-  "exclude": ["dist", "node_modules"]
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
 }
