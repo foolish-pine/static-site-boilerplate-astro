@@ -5,8 +5,7 @@
     "source.fixAll.eslint": "explicit"
   },
   "css.validate": false,
-  "scss.validate": false,
-  "stylelint.validate": ["css", "scss", "astro"],
+  "stylelint.validate": ["css", "astro"],
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -18,7 +17,7 @@
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[css][scss]": {
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {

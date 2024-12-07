@@ -10,16 +10,16 @@ import BaseLayout from "src/layouts/BaseLayout.astro";
   <p class="hp_mobileOnly">test</p>
 </BaseLayout>
 
-<style lang="scss">
+<style>
   .h1 {
     font-family: sans-serif;
     font-size: 24px;
 
-    @include mq_custom(1155px) {
+    @media (1155px <= width) {
       color: red;
     }
 
-    @include mq(md) {
+    @media (768px <= width) {
       font-size: 16px;
     }
   }

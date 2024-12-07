@@ -1,14 +1,18 @@
-@use "src/styles/global" as *;
+:root {
+  --color-text-body: #000;
+  --font-base: "游ゴシック体", yugothic, "游ゴシック Medium",
+    "Yu Gothic Medium", "游ゴシック", "Yu Gothic";
+}
 
 html {
   overflow: hidden auto;
 }
 
 body {
-  font-family: $f_yuGothic, sans-serif;
-  font-size: toRem(16);
+  font-family: var(--font-base), sans-serif;
+  font-size: 1rem;
   line-height: 1;
-  color: $c_black;
+  color: var(--color-text-body);
   word-break: normal;
   overflow-wrap: anywhere;
   line-break: strict;
@@ -35,9 +39,20 @@ dialog {
   border: unset;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after,
+  *::backdrop {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* stylelint-disable */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  // Google Chrome
+  /* for Google Chrome */
   img {
     image-rendering: -webkit-optimize-contrast;
   }

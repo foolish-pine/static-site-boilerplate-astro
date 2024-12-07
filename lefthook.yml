@@ -5,7 +5,7 @@ pre-commit:
       glob: "*.{astro,js,cjs,mjs,ts}"
       run: npx eslint --fix --quiet {staged_files}
     2_stylelint:
-      glob: "*.{astro,css,scss}"
+      glob: "*.{astro,css}"
       run: npx stylelint --fix --quiet {staged_files}
     3_prettier:
       run: npx prettier --write --log-level=error --ignore-unknown --plugin prettier-plugin-astro {staged_files}

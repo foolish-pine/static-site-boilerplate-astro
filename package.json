@@ -11,7 +11,7 @@
     "check:astro": "astro check",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint \"**/*.{astro,js,ts}\"",
-    "lint:stylelint": "stylelint \"**/*.{astro,css,scss}\"",
+    "lint:stylelint": "stylelint \"**/*.{astro,css}\"",
     "lint:prettier": "prettier --check .",
     "fix": "run-s fix:{eslint,stylelint,prettier}",
     "fix:eslint": "npm run lint:eslint -- --fix",
@@ -43,7 +43,7 @@
     "stylelint": "16.11.0",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-recess-order": "5.1.1",
-    "stylelint-config-standard-scss": "14.0.0",
+    "stylelint-config-standard": "^36.0.1",
     "typescript": "5.7.2",
     "typescript-eslint": "8.17.0"
   },

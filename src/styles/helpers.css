@@ -1,9 +1,7 @@
-@use "src/styles/global" as *;
-
 .hp_mobileOnly {
   display: none !important;
 
-  @include mq(md) {
+  @media (768px <= width) {
     display: block !important;
   }
 }
@@ -11,7 +9,7 @@
 .hp_desktopOnly {
   display: block !important;
 
-  @include mq(md) {
+  @media (768px <= width) {
     display: none !important;
   }
 }
@@ -19,7 +17,13 @@
 .hp_hoverTransparent {
   transition: opacity 0.4s !important;
 
-  @include mq_hover {
+  @media (any-hover: hover) {
+    &:hover {
+      opacity: 0.6 !important;
+    }
+  }
+
+  &:focus-visible {
     opacity: 0.6 !important;
   }
 }
