@@ -14,7 +14,7 @@
   }
 }
 
-.hp_hoverTransparent {
+.hp_hoverFade {
   transition: opacity 0.4s !important;
 
   @media (any-hover: hover) {
