@@ -1,5 +1,5 @@
 :root {
-  --color-text-body: #000;
+  --color-text-base: #000;
   --font-base: "游ゴシック体", yugothic, "游ゴシック Medium",
     "Yu Gothic Medium", "游ゴシック", "Yu Gothic";
 }
@@ -12,7 +12,7 @@ body {
   font-family: var(--font-base), sans-serif;
   font-size: 1rem;
   line-height: 1;
-  color: var(--color-text-body);
+  color: var(--color-text-base);
   word-break: normal;
   overflow-wrap: anywhere;
   line-break: strict;
