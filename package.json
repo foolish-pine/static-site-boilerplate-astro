@@ -35,7 +35,7 @@
     "globals": "15.13.0",
     "lefthook": "1.9.2",
     "npm-run-all2": "7.0.1",
-    "postcss-preset-env": "10.1.1",
+    "postcss-preset-env": "10.1.2",
     "postcss-sort-media-queries": "5.2.0",
     "prettier": "3.4.2",
     "prettier-plugin-astro": "0.14.1",
