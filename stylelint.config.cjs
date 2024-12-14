@@ -8,7 +8,6 @@ module.exports = {
     "keyframes-name-pattern": null,
     "selector-class-pattern": null,
     "selector-id-pattern": null,
-    "function-name-case": null,
     "selector-pseudo-class-no-unknown": [
       true,
       {
