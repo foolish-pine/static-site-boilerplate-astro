@@ -1,7 +1,8 @@
 :root {
   --color-text-base: #000;
-  --font-base: "游ゴシック体", yugothic, "游ゴシック Medium",
-    "Yu Gothic Medium", "游ゴシック", "Yu Gothic";
+  --font-base:
+    "游ゴシック体", yugothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic";
 }
 
 html {
