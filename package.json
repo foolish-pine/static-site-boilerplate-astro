@@ -37,7 +37,7 @@
     "npm-run-all2": "7.0.2",
     "postcss-preset-env": "10.1.5",
     "postcss-sort-media-queries": "5.2.0",
-    "prettier": "3.5.2",
+    "prettier": "3.5.3",
     "prettier-plugin-astro": "0.14.1",
     "stylelint": "16.15.0",
     "stylelint-config-html": "1.1.0",
