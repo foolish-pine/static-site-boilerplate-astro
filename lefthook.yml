@@ -1,7 +1,8 @@
 pre-commit:
   parallel: true
   jobs:
-    - group:
+    - name: lint-and-format
+      group:
         piped: true
         jobs:
           - group:
@@ -12,5 +13,6 @@ pre-commit:
                 - run: npm run fix:stylelint {staged_files}
                   glob: "*.{astro,css}"
           - run: npm run fix:prettier --files={staged_files}
-    - run: npm run check:astro
-      glob: "*.{astro,js,ts}"
+    - name: validate-astro
+      run: npm run check:astro
+      glob: "*.{astro,js,cjs,mjs,ts}"
