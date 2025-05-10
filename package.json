@@ -12,7 +12,7 @@
     "lint": "run-p lint:*",
     "lint:eslint": "eslint '**/*.{astro,js,cjs,mjs,ts}'",
     "lint:stylelint": "stylelint '**/*.{astro,css}'",
-    "lint:prettier": "prettier ${npm_config_files:-.} --check",
+    "lint:prettier": "prettier ${npm_config_files:-.} --check --ignore-unknown",
     "fix": "run-s fix:{eslint,stylelint,prettier}",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:stylelint": "npm run lint:stylelint -- --fix",
