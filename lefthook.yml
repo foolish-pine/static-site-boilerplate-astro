@@ -8,11 +8,11 @@ pre-commit:
           - group:
               parallel: true
               jobs:
-                - run: npm run fix:eslint {staged_files}
+                - run: npx eslint {staged_files} --fix
                   glob: "*.{astro,js,cjs,mjs,ts}"
-                - run: npm run fix:stylelint {staged_files}
+                - run: npx stylelint {staged_files} --fix
                   glob: "*.{astro,css}"
-          - run: npm run fix:prettier --files={staged_files}
+          - run: npx prettier {staged_files} --write --check --ignore-unknown
     - name: validate-astro
-      run: npm run check:astro
+      run: npx astro check
       glob: "*.{astro,js,cjs,mjs,ts}"
