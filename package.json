@@ -36,7 +36,6 @@
     "lefthook": "1.11.13",
     "npm-run-all2": "8.0.2",
     "postcss-preset-env": "10.1.6",
-    "postcss-sort-media-queries": "5.2.0",
     "prettier": "3.5.3",
     "prettier-plugin-astro": "0.14.1",
     "stylelint": "16.19.1",
