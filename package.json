@@ -33,7 +33,7 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "globals": "16.2.0",
-    "lefthook": "1.11.13",
+    "lefthook": "1.11.14",
     "npm-run-all2": "8.0.4",
     "postcss-preset-env": "10.2.3",
     "prettier": "3.5.3",
