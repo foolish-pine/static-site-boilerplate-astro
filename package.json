@@ -36,7 +36,7 @@
     "lefthook": "1.11.14",
     "npm-run-all2": "8.0.4",
     "postcss-preset-env": "10.2.3",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "prettier-plugin-astro": "0.14.1",
     "stylelint": "16.21.0",
     "stylelint-config-html": "1.1.0",
