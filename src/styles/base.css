@@ -14,9 +14,9 @@ body {
   font-size: 1rem;
   line-height: 1;
   color: var(--color-text-base);
+  line-break: strict;
   word-break: normal;
   overflow-wrap: anywhere;
-  line-break: strict;
 }
 
 li {
