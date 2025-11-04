@@ -46,6 +46,6 @@
     "typescript-eslint": "8.46.2"
   },
   "volta": {
-    "node": "22.21.0"
+    "node": "22.21.1"
   }
 }
