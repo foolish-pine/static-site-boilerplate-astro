@@ -21,7 +21,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.1.4",
     "astro": "^5.0.0",
-    "astro-seo": "^0.8.3",
+    "astro-seo": "^1.0.0",
     "destyle.css": "^4.0.1"
   },
   "devDependencies": {
