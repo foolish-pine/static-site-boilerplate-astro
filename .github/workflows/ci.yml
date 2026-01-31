@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: volta-cli/action@5c175f92dea6f48441c436471e6479dbc192e194 # v4
       - name: Cache node_modules
-        uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5
+        uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5
         with:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
