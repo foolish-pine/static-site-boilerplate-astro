@@ -47,9 +47,9 @@ dialog {
   *::before,
   *::after,
   *::backdrop {
+    scroll-behavior: auto !important;
     transition: none !important;
     animation: none !important;
-    scroll-behavior: auto !important;
   }
 }
 
