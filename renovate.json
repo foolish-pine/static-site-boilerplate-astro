@@ -7,6 +7,33 @@
     {
       "matchManagers": ["github-actions"],
       "minimumReleaseAge": null
+    },
+    {
+      "matchPackageNames": [
+        "astro",
+        "@astrojs/*",
+        "astro-seo",
+        "astro-robots-txt"
+      ],
+      "groupName": "astro"
+    },
+    {
+      "matchPackageNames": [
+        "eslint",
+        "@eslint/*",
+        "eslint-*",
+        "globals",
+        "typescript-eslint"
+      ],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackageNames": ["stylelint", "stylelint-*"],
+      "groupName": "stylelint"
+    },
+    {
+      "matchPackageNames": ["prettier", "prettier-*"],
+      "groupName": "prettier"
     }
   ]
 }
