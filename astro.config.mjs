@@ -6,6 +6,7 @@ import robotsTxt from "astro-robots-txt";
 export default defineConfig({
   site: "https://www.my-site.dev", // set your site URL.
   base: "/",
+  cacheDir: ".astro-cache",
   prefetch: {
     prefetchAll: true,
   },
