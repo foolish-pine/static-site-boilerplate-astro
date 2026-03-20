@@ -3,6 +3,9 @@
   "extends": ["config:best-practices"],
   "prConcurrentLimit": 1,
   "prHourlyLimit": 0,
+  "major": {
+    "dependencyDashboardApproval": true
+  },
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
