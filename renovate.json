@@ -3,6 +3,7 @@
   "extends": ["config:best-practices"],
   "prConcurrentLimit": 1,
   "prHourlyLimit": 0,
+  "rebaseWhen": "never",
   "major": {
     "dependencyDashboardApproval": true
   },
