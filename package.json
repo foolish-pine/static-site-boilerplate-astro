@@ -1,8 +1,8 @@
 {
   "name": "static-site-boilerplate-astro",
-  "type": "module",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "astro dev",
     "build": "astro build",
