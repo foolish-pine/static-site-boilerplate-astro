@@ -4,14 +4,11 @@
   "prConcurrentLimit": 1,
   "prHourlyLimit": 0,
   "rebaseWhen": "never",
+  "minimumReleaseAge": "7 days",
   "major": {
     "dependencyDashboardApproval": true
   },
   "packageRules": [
-    {
-      "matchManagers": ["github-actions"],
-      "minimumReleaseAge": null
-    },
     {
       "matchPackageNames": [
         "astro",
