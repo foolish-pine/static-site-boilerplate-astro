@@ -10,31 +10,21 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": [
-        "astro",
-        "@astrojs/*",
-        "astro-seo",
-        "astro-robots-txt"
-      ],
-      "groupName": "astro"
-    },
-    {
+      "groupName": "ESLint",
       "matchPackageNames": [
         "eslint",
         "@eslint/*",
         "eslint-*",
-        "globals",
         "typescript-eslint"
-      ],
-      "groupName": "eslint"
+      ]
     },
     {
-      "matchPackageNames": ["stylelint", "stylelint-*"],
-      "groupName": "stylelint"
+      "groupName": "Prettier",
+      "matchPackageNames": ["prettier", "prettier-*"]
     },
     {
-      "matchPackageNames": ["prettier", "prettier-*"],
-      "groupName": "prettier"
+      "groupName": "Stylelint",
+      "matchPackageNames": ["stylelint", "stylelint-*"]
     }
   ]
 }
