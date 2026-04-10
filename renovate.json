@@ -1,10 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices"],
+  "minimumReleaseAge": "7 days",
+  "osvVulnerabilityAlerts": true,
   "prConcurrentLimit": 1,
   "prHourlyLimit": 0,
   "rebaseWhen": "never",
-  "minimumReleaseAge": "7 days",
   "major": {
     "dependencyDashboardApproval": true
   },
