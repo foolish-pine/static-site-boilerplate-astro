@@ -1,7 +1,7 @@
 ---
 import "destyle.css";
-import "src/styles/base.css";
-import "src/styles/helpers.css";
+import "@styles/base.css";
+import "@styles/helpers.css";
 
 import { type Props as AstroSeoProps, SEO } from "astro-seo";
 
@@ -26,7 +26,7 @@ const { title, description, ...seoProps }: Props = Astro.props;
   <body>
     <slot />
     <script>
-      import { fixViewport } from "src/scripts/fixViewport";
+      import { fixViewport } from "@scripts/fixViewport";
 
       window.addEventListener("resize", fixViewport);
       fixViewport();
