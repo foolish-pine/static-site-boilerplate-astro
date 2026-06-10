@@ -25,6 +25,10 @@
     {
       "groupName": "Stylelint",
       "matchPackageNames": ["stylelint", "stylelint-*"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": null
     }
   ]
 }
