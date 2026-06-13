@@ -7,28 +7,5 @@
   "rebaseWhen": "never",
   "major": {
     "dependencyDashboardApproval": true
-  },
-  "packageRules": [
-    {
-      "groupName": "ESLint",
-      "matchPackageNames": [
-        "eslint",
-        "@eslint/*",
-        "eslint-*",
-        "typescript-eslint"
-      ]
-    },
-    {
-      "groupName": "Prettier",
-      "matchPackageNames": ["prettier", "prettier-*"]
-    },
-    {
-      "groupName": "Stylelint",
-      "matchPackageNames": ["stylelint", "stylelint-*"]
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "groupName": null
-    }
-  ]
+  }
 }
