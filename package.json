@@ -33,7 +33,7 @@
     "eslint-plugin-simple-import-sort": "13.0.0",
     "globals": "17.6.0",
     "lefthook": "2.1.9",
-    "npm-run-all2": "9.0.1",
+    "npm-run-all2": "9.0.2",
     "postcss-preset-env": "11.3.0",
     "prettier": "3.8.4",
     "prettier-plugin-astro": "0.14.1",
