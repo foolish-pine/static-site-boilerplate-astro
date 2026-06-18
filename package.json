@@ -34,7 +34,7 @@
     "globals": "17.6.0",
     "lefthook": "2.1.9",
     "npm-run-all2": "9.0.2",
-    "postcss-preset-env": "11.3.0",
+    "postcss-preset-env": "11.3.1",
     "prettier": "3.8.4",
     "prettier-plugin-astro": "0.14.1",
     "stylelint": "17.13.0",
