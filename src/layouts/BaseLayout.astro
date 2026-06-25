@@ -25,11 +25,12 @@ const { title, description, ...seoProps }: Props = Astro.props;
   </head>
   <body>
     <slot />
-    <script>
-      import { fixViewport } from "@scripts/fixViewport";
-
-      window.addEventListener("resize", fixViewport);
-      fixViewport();
-    </script>
   </body>
 </html>
+
+<script>
+  import { fixViewport } from "@scripts/fixViewport";
+
+  window.addEventListener("resize", fixViewport);
+  fixViewport();
+</script>
