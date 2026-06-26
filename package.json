@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.1.4",
-    "astro": "^6.0.0",
+    "astro": "^7.0.0",
     "astro-seo": "^1.0.0",
     "destyle.css": "^4.0.1"
   },
