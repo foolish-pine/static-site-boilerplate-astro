@@ -29,8 +29,7 @@ const { title, description, ...seoProps }: Props = Astro.props;
 </html>
 
 <script>
-  import { fixViewport } from "@scripts/fixViewport";
+  import { enforceMinViewportWidth } from "@scripts/enforceMinViewportWidth";
 
-  window.addEventListener("resize", fixViewport);
-  fixViewport();
+  enforceMinViewportWidth();
 </script>
