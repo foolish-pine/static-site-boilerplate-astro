@@ -14,7 +14,6 @@ export default defineConfig(
   ...tseslint.configs.recommended,
   ...eslintPluginAstro.configs["flat/recommended"],
   ...eslintPluginAstro.configs["flat/jsx-a11y-recommended"],
-  eslintConfigPrettier,
   {
     languageOptions: {
       ecmaVersion: "latest",
@@ -32,4 +31,5 @@ export default defineConfig(
       "simple-import-sort/exports": "error",
     },
   },
+  eslintConfigPrettier,
 );
