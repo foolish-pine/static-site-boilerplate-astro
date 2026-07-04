@@ -53,11 +53,10 @@ dialog {
   }
 }
 
-/* stylelint-disable */
+/* stylelint-disable-next-line media-feature-name-no-vendor-prefix */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* for Google Chrome */
+  /* Sharpen downscaled images in Chrome, which otherwise blurs them. */
   img {
     image-rendering: -webkit-optimize-contrast;
   }
 }
-/* stylelint-enable */
