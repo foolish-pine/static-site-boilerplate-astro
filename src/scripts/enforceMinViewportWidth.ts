@@ -1,3 +1,4 @@
+// Lock the viewport to width=390 on screens narrower than the 390px minimum design width to prevent layout breakage; wider screens keep the responsive width=device-width behavior.
 export const enforceMinViewportWidth = () => {
   const viewport = document.querySelector('meta[name="viewport"]');
 
