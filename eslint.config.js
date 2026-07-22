@@ -13,7 +13,6 @@ export default defineConfig(
   js.configs.recommended,
   ...tseslint.configs.recommended,
   ...eslintPluginAstro.configs["flat/recommended"],
-  ...eslintPluginAstro.configs["flat/jsx-a11y-recommended"],
   {
     languageOptions: {
       ecmaVersion: "latest",
