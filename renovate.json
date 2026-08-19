@@ -7,5 +7,12 @@
   "rebaseWhen": "never",
   "major": {
     "dependencyDashboardApproval": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "minimumReleaseAge": "7 days"
+    }
+  ]
 }
