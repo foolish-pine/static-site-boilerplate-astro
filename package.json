@@ -31,7 +31,7 @@
     "eslint-plugin-astro": "3.1.0",
     "eslint-plugin-simple-import-sort": "14.0.0",
     "globals": "17.11.0",
-    "lefthook": "2.1.10",
+    "lefthook": "2.1.12",
     "npm-run-all2": "9.0.3",
     "postcss-preset-env": "11.5.0",
     "prettier": "3.9.6",
