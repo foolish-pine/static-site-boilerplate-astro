@@ -27,7 +27,7 @@
     "@astrojs/check": "0.9.10",
     "@eslint/js": "10.0.1",
     "astro-robots-txt": "1.0.0",
-    "eslint": "10.10.0",
+    "eslint": "10.11.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-astro": "3.2.1",
     "eslint-plugin-simple-import-sort": "14.0.0",
