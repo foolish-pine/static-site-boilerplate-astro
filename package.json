@@ -42,7 +42,7 @@
     "stylelint-config-recess-order": "7.8.2",
     "stylelint-config-standard": "40.0.0",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.71.2"
+    "typescript-eslint": "8.72.0"
   },
   "volta": {
     "node": "24.22.2"
