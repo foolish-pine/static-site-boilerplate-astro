@@ -1,7 +1,7 @@
 ---
 import "destyle.css";
-import "@styles/base.css";
-import "@styles/helpers.css";
+import "#/styles/base.css";
+import "#/styles/helpers.css";
 
 import { SEO } from "astro-seo";
 
@@ -29,7 +29,7 @@ const { title, description } = Astro.props;
 </html>
 
 <script>
-  import { enforceMinViewportWidth } from "@scripts/enforceMinViewportWidth";
+  import { enforceMinViewportWidth } from "#/scripts/enforceMinViewportWidth.ts";
 
   enforceMinViewportWidth();
 </script>
