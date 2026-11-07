@@ -2,6 +2,9 @@
   "name": "static-site-boilerplate-astro",
   "private": true,
   "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
   "scripts": {
     "start": "astro dev",
     "build": "astro build",
